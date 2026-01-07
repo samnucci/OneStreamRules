@@ -5,7 +5,6 @@ Module Utils
     Private Function LogDataBuffer(dt As DataTable, Optional maxRows As Integer = -1) As String
         Dim sb As New StringBuilder()
 
-        ' Column headers
         For Each col As DataColumn In dt.Columns
             sb.Append(col.ColumnName & vbTab)
         Next

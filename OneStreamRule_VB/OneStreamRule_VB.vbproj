@@ -6,8 +6,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Assembly Services\Component Service\" />
+    <Folder Include="Assembly Services\Dashboard Service\" />
+    <Folder Include="Assembly Services\Data Management Step Service\" />
+    <Folder Include="Assembly Services\Dynamic Dashboard Service\" />
+    <Folder Include="Assembly Services\Data Set Service\" />
+    <Folder Include="Assembly Services\Finance Core Service\" />
+    <Folder Include="Assembly Services\Finance Custom Calc Service\" />
+    <Folder Include="Assembly Services\Finance Get Data Cell Service\" />
+    <Folder Include="Assembly Services\Finance Member List Service\" />
+    <Folder Include="Assembly Services\XFBR Service\" />
+    <Folder Include="Assembly Services\Table View Service\" />
+    <Folder Include="Assembly Services\SQL Table Editor Service\" />
     <Folder Include="MemberFormulas\" />
-    <Folder Include="Rules\" />
+    <Folder Include="Rules\Finance\" />
+    <Folder Include="Rules\Connector\" />
+    <Folder Include="Rules\Conditional Rule\" />
+    <Folder Include="Rules\Derivative Rule\" />
+    <Folder Include="Rules\Dashboard Data Set\" />
+    <Folder Include="Rules\Dashboard Extender\" />
+    <Folder Include="Rules\Extensibility\" />
+    <Folder Include="Rules\SpreadSheet\" />
+    <Folder Include="Rules\Smart Integration Function\" />
+    <Folder Include="Rules\Parser\" />
   </ItemGroup>
 
 </Project>
